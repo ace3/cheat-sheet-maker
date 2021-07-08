@@ -2,7 +2,7 @@
 
 A fullstack application to create and share tabulated cheat sheets using markdown syntax. The backend is developed with node-JS, express-JS and mongo-db while the frontend is developed with React.
 
-**[Checkout the website](https://cheatsheet-maker.herokuapp.com/)**.
+**[Checkout the website](https://ace3-cheatsheet.herokuapp.com/)**.
 
 ## Features
 
@@ -36,12 +36,5 @@ The project is divided into two parts, the server handles the backend and mongoD
 
 - You will also need to assign a value for the variable `jwtSecret` in `.env` which is needed by [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken#readme) used for generating web tokens.
 
-## Todo
-
-- Add rich text editor as an alternative to markdown
-- More theming options
-- Add search feature
-
-## keywords
-
-React-JS, node-JS, express, redux, react-router, mongoDB, axios, markdown.
+### To Update the heroku, run this command
+`git push heroku master`
